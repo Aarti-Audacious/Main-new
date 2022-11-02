@@ -63,7 +63,7 @@ const ViewCalender: React.FC<permissionData> = (
     // eslint-disable-next-line
   }, [leavePermission]);
   const options = [
-    { label: "Calender view", value: true },
+    { label: "Calender view", value: true ,},
     { label: "List view", value: false },
   ];
   const onDateChange = (
